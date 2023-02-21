@@ -462,9 +462,9 @@ vendor/firmware/yupik_ipa_fws.elf
 vendor/firmware/yupik_ipa_fws.mdt
 
 # Firmware (Touchpanel)
-odm/firmware/tp/21603/FW_FT3518_SAMSUNG.img
-odm/firmware/tp/21603/FW_FT3518_SAMSUNG_FAE.img
-odm/firmware/tp/21603/LIMIT_FT3518_SAMSUNG.img
+odm/firmware/tp/21603/FW_FT3518_SAMSUNG.img|b6d46d51b5aa7cc17a4f827d3f84f08c8446fe7a
+odm/firmware/tp/21603/FW_FT3518_SAMSUNG_FAE.img|ffe3fcfcc1726462e5f33d7e842bf398ec6e2a39
+odm/firmware/tp/21603/LIMIT_FT3518_SAMSUNG.img|7a6b6d58bd37435d2dc68459ffc65dd2b4c523b4
 odm/firmware/tp/21643/FW_NF_ILI7807S_DSJM.img
 odm/firmware/tp/21643/FW_NF_ILI7807S_DSJM_FAE.img
 odm/firmware/tp/21643/LIMIT_NF_ILI7807S_DSJM.img
