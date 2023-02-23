@@ -26,3 +26,17 @@ service init-sensors_fix-sh /vendor/bin/init.sensors_fix.sh
     user system
     group system
     oneshot
+
+service qti_esepowermanager_service_1_1 /odm/bin/hw/vendor.qti.esepowermanager@1.1-service
+    override
+    disabled
+    class hal
+    user system
+    group nfc system
+
+service secureelement-hal_1_2 /odm/bin/hw/vendor.qti.secure_element@1.2-service
+    override
+    disabled
+    class hal
+    user system
+    group system

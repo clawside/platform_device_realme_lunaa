@@ -12,6 +12,9 @@ include device/oneplus/sm8350-common/BoardConfigCommon.mk
 # Display
 TARGET_SCREEN_DENSITY := 450
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/oplus_yupik_QGKI.config
 
