@@ -40,3 +40,21 @@ service secureelement-hal_1_2 /odm/bin/hw/vendor.qti.secure_element@1.2-service
     class hal
     user system
     group system
+
+service vendor.pixelworks.hardware.display /odm/bin/hw/vendor.pixelworks.hardware.display.iris-service
+    override
+    disabled
+    class hal animation
+    user system
+    group graphics drmrpc
+    capabilities SYS_NICE
+    onrestart restart surfaceflinger
+
+service vendor.pixelworks.hardware.feature /odm/bin/hw/vendor.pixelworks.hardware.feature.irisfeature-service
+    override
+    disabled
+    class hal animation
+    user system
+    group graphics drmrpc
+    capabilities SYS_NICE
+    onrestart restart surfaceflinger

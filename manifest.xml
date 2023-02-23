@@ -20,4 +20,14 @@
         <name>vendor.qti.esepowermanager</name>
         <transport>hwbinder</transport>
     </hal>
+    <!-- Disable Iris HW Service -->
+    <hal override="true">
+        <name>vendor.pixelworks.hardware.display</name>
+        <transport>hwbinder</transport>
+    </hal>
+    <!-- Disable Iris Feature Service -->
+    <hal override="true">
+        <name>vendor.pixelworks.hardware.feature</name>
+        <transport>hwbinder</transport>
+    </hal>
 </manifest>
