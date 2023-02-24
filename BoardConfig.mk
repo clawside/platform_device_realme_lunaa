@@ -6,6 +6,9 @@
 
 DEVICE_PATH := device/realme/lunaa
 
+# Partitions
+BOARD_SUPER_PARTITION_SIZE := 10200547328
+
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm8350-common/BoardConfigCommon.mk
 
